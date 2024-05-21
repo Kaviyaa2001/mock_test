@@ -1,0 +1,149 @@
+<!--<div class="flex justify-center">
+    <div class=" flex flex-col items-center w-96 mt-32 gap-2 shadow p-8 bg-white">
+      <h4 class="text-lg">Please enter quiz code and your name</h4>
+      <mat-form-field class="w-full">
+        <mat-label>Code</mat-label>
+        <input type="text" matInput [(ngModel)]="code" placeholder="enter code" />
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <mat-label>Name</mat-label>
+        <input type="text" matInput [(ngModel)]="name" placeholder="enter your name" />
+      </mat-form-field>
+      <button mat-raised-button color="primary" class="w-6/12" (click)="join()">Join</button>
+    </div>
+  </div>-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Quiz</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      width: 24rem;
+      margin-top: 8rem;
+      padding: 2rem;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card flex flex-col items-center gap-2">
+    <h4 class="text-lg">Please enter quiz code and your name</h4>
+    <mat-form-field class="w-full">
+      <mat-label>Code</mat-label>
+      <input type="text" matInput [(ngModel)]="code" placeholder="enter code" />
+    </mat-form-field>
+    <mat-form-field class="w-full">
+      <mat-label>Name</mat-label>
+      <input type="text" matInput [(ngModel)]="name" placeholder="enter your name" />
+    </mat-form-field>
+    <button mat-raised-button color="primary" class="w-6/12" (click)="join()">Join</button>
+  </div>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Quiz</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      width: 24rem;
+      margin-top: 1rem;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    .logo {
+      width: 300px;
+      height: auto;
+      object-fit: cover;
+      margin-bottom: 2rem;
+      background-color: transparent;
+    }
+    .card h4 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #333;
+      text-align: center;
+    }
+    mat-form-field {
+      width: 100%;
+    }
+    .mat-form-field-wrapper {
+      padding-bottom: 0 !important;
+    }
+    .mat-raised-button {
+      padding: 0.5rem 2rem;
+      font-size: 1rem;
+      border-radius: 0.5rem;
+      background-color: #6c63ff; /* Button background color */
+      color: #ffffff; /* Button text color */
+    }
+    .mat-raised-button:hover {
+      background-color: #534bd9; /* Button background color on hover */
+    }
+    .mat-raised-button:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="assets/images/agilisium.png" alt="Quiz Logo" class="logo">
+    <div class="card">
+      <h4>Please Enter Mock Code and Your Name</h4>
+      <mat-form-field class="w-full">
+        <mat-label>Code</mat-label>
+        <input type="text" matInput [(ngModel)]="code" placeholder="enter code" />
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <mat-label>Name</mat-label>
+        <input type="text" matInput [(ngModel)]="name" placeholder="enter your name" />
+      </mat-form-field>
+      <button mat-raised-button color="primary" class="w-6/12" (click)="join()">Join</button>
+    </div>
+  </div>
+</body>
+</html>

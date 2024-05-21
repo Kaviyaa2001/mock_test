@@ -1,0 +1,58 @@
+
+<!--<div class="flex justify-center">
+    <div class="flex flex-col items-center w-96 mt-32 gap-2 shadow p-8 bg-white">
+      <h2>Hi {{ quizResult.name }}, Your results are below</h2>
+      <table class="w-full">
+        <tr class="bg-gray-500">
+          <td>Score</td>
+          <td>{{ quizResult.score }}</td>
+        </tr>
+        <tr class="bg-purple-500">
+          <td>Percentage</td>
+          <td>{{ quizResult.percentage }}</td>
+        </tr>
+        <tr class="bg-green-500">
+          <td>Correct</td>
+          <td>{{ quizResult.correct }}</td>
+        </tr>
+        <tr class="bg-red-400">
+          <td>In Correct</td>
+          <td>{{ quizResult.inCorrect }}</td>
+        </tr>
+        <tr class="bg-yellow-400">
+          <td>Un Attempt</td>
+          <td>{{ quizResult.unAttempt }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>-->
+
+ <div class="flex justify-center">
+    <div class="flex flex-col items-center w-96 mt-32 gap-2 shadow-lg rounded-lg p-8 bg-white">
+      <h2 class="text-2xl font-semibold mb-4">Hi, {{ quizResult.name }}, Your results are below:</h2>
+      <table class="w-full">
+        <tr class="bg-blue-200 hover:bg-blue-300 transition duration-300">
+          <td class="py-2 px-4 font-semibold">Score</td>
+          <td class="py-2 px-4">{{ quizResult.score }}</td>
+        </tr>
+        <tr class="bg-purple-200 hover:bg-purple-300 transition duration-300">
+          <td class="py-2 px-4 font-semibold">Percentage</td>
+          <td class="py-2 px-4">{{ quizResult.percentage }}</td>
+        </tr>
+        <tr class="bg-green-200 hover:bg-green-300 transition duration-300">
+          <td class="py-2 px-4 font-semibold">Correct</td>
+          <td class="py-2 px-4">{{ quizResult.correct }}</td>
+        </tr>
+        <tr class="bg-red-200 hover:bg-red-300 transition duration-300">
+          <td class="py-2 px-4 font-semibold">Incorrect</td>
+          <td class="py-2 px-4">{{ quizResult.inCorrect }}</td>
+        </tr>
+        <tr class="bg-yellow-200 hover:bg-yellow-300 transition duration-300">
+          <td class="py-2 px-4 font-semibold">Unattempted</td>
+          <td class="py-2 px-4">{{ quizResult.unAttempt }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  
+  

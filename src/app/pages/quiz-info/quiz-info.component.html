@@ -1,0 +1,35 @@
+
+<!--<div class="flex justify-center">
+    <div class="flex flex-col items-center w-96 mt-32 gap-2 shadow p-8 bg-white">
+      <h2>Hi {{quizResult.name}}</h2>
+      <h4 class="text-lg">{{ quizInfo.name }}</h4>
+      <p>Total question {{ quizInfo.questions.length }}</p>
+      <button mat-raised-button color="primary" class="w-6/12" (click)="start()">
+        Start
+      </button>
+    </div>
+  </div>-->
+
+  <div class="flex justify-center bg-gray-100 min-h-screen">
+    <div class="flex flex-col items-center w-96 mt-32 gap-6 shadow-lg rounded-lg p-8 bg-white">
+      <h2 class="text-3xl font-bold text-center">Welcome, {{ quizResult.name }}!</h2>
+      <h4 class="text-lg font-semibold">{{ quizInfo.name }}</h4>
+      <p class="text-sm">Total questions: {{ quizInfo.questions.length }}</p>
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-6/12 focus:outline-none focus:shadow-outline" (click)="start()">
+        Start Quiz
+      </button>
+      <div class="mt-4 text-left">
+        <h3 class="text-xl font-semibold">Instructions:</h3>
+        <ul class="list-disc pl-6">
+          <li>Read each question carefully before answering.</li>
+          <li>There is only one correct answer for each question.</li>
+          <li>Click on the desired answer choice to select it.</li>
+          <li>You can navigate between questions using the navigation buttons.</li>
+          <li>Once you've answered all questions, click the submit button to see your results.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  
+  
